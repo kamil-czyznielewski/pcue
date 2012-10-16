@@ -1,0 +1,28 @@
+
+<ApplicationBuild Header="tabs" Extern=".\tabs.rapp" Path=".\tabs.rapp" AsyncBuild="" OutputFile=".\objdebug\tabs.elf" sate="96" Config="Circle_Debug" >
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="ARM" />
+							
+				</Section>
+					
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F103RBT6_CircleOS" />
+							
+				</Section>
+				<Section Header="ToolSetARM" >
+					<Property Header="BuildToolSetARM" Value="ARM\GNU.config" Removable="1" />
+							
+				</Section>
+					
+			</Set>
+		</Config>
+	</Options>
+	<NodeC Path=".\Application.c" Header="Application.c" Marker="-1" AsyncBuild="" OutputFile=".\objdebug\Application.o" sate="0" />
+	<NodeApp Path="C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Circle.elf" Header="Circle.elf" Marker="-1" AsyncBuild="" OutputFile="" LoadExclude="No" sate="0" />
+	<NodeApp Path="C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\FAT.elf" Header="FAT.elf" Marker="-1" AsyncBuild="" OutputFile="" LoadExclude="No" sate="2" />
+</ApplicationBuild>

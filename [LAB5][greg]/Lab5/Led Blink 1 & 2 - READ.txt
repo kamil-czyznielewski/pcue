@@ -1,0 +1,45 @@
+== cz. 1 - Dioda niczym ping-pong
+    Modyfikujemy plik ISRs.c funkcję EX_INTERRUPT_HANDLER(Timer0_ISR)
+    
+    // CODE START
+        // confirm interrupt handling
+		*pTIMER_STATUS = 0x0001;
+	
+		// shift old LED pattern by one
+		if(sLight_Move_Direction)
+		{
+			ucActive_LED /= 0x0002;
+			if ( ucActive_LED <= 0x0040 ) {
+				sLight_Move_Direction = ~sLight_Move_Direction;
+			}
+		}
+		else
+		{
+			ucActive_LED *= 0x0002;
+			if ( ucActive_LED >= 0x0800 ) {
+				sLight_Move_Direction = ~sLight_Move_Direction;
+			}
+		}
+
+		// write new LED pattern to PORTF LEDs
+		*pPORTFIO_CLEAR =0x0FC4;
+		*pPORTFIO_TOGGLE = ucActive_LED;
+	// CODE END
+    
+== cz. 2 - Przycisk zmienia sposób wyświetlania
+    Na zajęciach zaimplementowałem krok drugi w tym samym programie co krok pierwszy
+    i było ok.
+    Dodajemy zmienną
+        short sChangeMode;
+    w
+        EX_INTERRUPT_HANDLER(PORTF_IntA_ISR)
+    przestawiamy tę zmiennę za każdym razem gdy wduszono przycisk
+        sChangeMode = ~sChangeMode;
+        
+    W funkcji
+        EX_INTERRUPT_HANDLER(Timer0_ISR)
+    dodajemy na początku if'a na tej zmiennej i w zależności od jej stanu wykonujemy
+    program z kroku 1 lub skopiowany oryginalny program który był w LDE Blink
+    
+== Kod w ISRs.c
+    

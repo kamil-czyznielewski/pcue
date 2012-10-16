@@ -1,0 +1,84 @@
+<!-- DWF2XML 2.00.01 - Raisonance Dwarf information extractor -->
+<aoffile Filename="Application0" dwarf="1">
+ <modulelist>
+  <module Name="D:\Student\Lab1\Application.c" >
+   <type Family="Base" Name="signed char" ID="41"/>
+   <type Family="Base" Name="unsigned char" ID="59"/>
+   <type Family="typedef" Name="uint8_t" Line="42" ID="48" toTI="59"/>
+   <type Family="Base" Name="short int" ID="77"/>
+   <type Family="typedef" Name="int16_t" Line="53" ID="66" toTI="77"/>
+   <type Family="Base" Name="short unsigned int" ID="95"/>
+   <type Family="typedef" Name="uint16_t" Line="54" ID="84" toTI="95"/>
+   <type Family="Base" Name="long int" ID="113"/>
+   <type Family="typedef" Name="int32_t" Line="79" ID="102" toTI="113"/>
+   <type Family="Base" Name="long unsigned int" ID="131"/>
+   <type Family="typedef" Name="uint32_t" Line="80" ID="120" toTI="131"/>
+   <type Family="Base" Name="long long int" ID="138"/>
+   <type Family="Base" Name="long long unsigned int" ID="145"/>
+   <type Family="Base" Name="int" ID="152"/>
+   <type Family="Base" Name="unsigned int" ID="159"/>
+   <type Family="typedef" Name="s32" Line="22" ID="166" toTI="102"/>
+   <type Family="typedef" Name="s16" Line="23" ID="177" toTI="66"/>
+   <type Family="typedef" Name="u32" Line="38" ID="188" toTI="120"/>
+   <type Family="typedef" Name="u16" Line="39" ID="199" toTI="84"/>
+   <type Family="typedef" Name="u8" Line="40" ID="210" toTI="48"/>
+   <type Family="typedef" Name="color_t" Line="76" ID="220" toTI="199"/>
+   <type Family="Pointer" TI="263" toTI="269"/>
+   <type Family="typedef" Name="tCircleFunc0" Line="110" ID="252" toTI="263"/>
+   <type Family="Pointer" TI="286" toTI="292"/>
+   <type Family="typedef" Name="tCircleFunc1" Line="111" ID="275" toTI="286"/>
+   <type Family="Pointer" TI="319" toTI="325"/>
+   <type Family="typedef" Name="tCircleFunc3" Line="113" ID="308" toTI="319"/>
+   <type Family="Pointer" TI="362" toTI="368"/>
+   <type Family="typedef" Name="tCircleFunc4" Line="114" ID="351" toTI="362"/>
+   <type Family="Pointer" TI="410" toTI="416"/>
+   <type Family="typedef" Name="tCircleFunc6" Line="116" ID="399" toTI="410"/>
+   <type Family="ComponentList" Line="208" ID="457">
+    <Component Name="OutX" TI="465" Line="210" Offs="0"/>
+    <Component Name="OutX_F4" TI="479" Line="211" Offs="2"/>
+    <Component Name="OutX_F16" TI="493" Line="212" Offs="4"/>
+    <Component Name="OutX_F64" TI="507" Line="213" Offs="8"/>
+    <Component Name="OutX_F256" TI="521" Line="214" Offs="12"/>
+    <Component Name="OutY" TI="535" Line="215" Offs="16"/>
+    <Component Name="OutY_F4" TI="549" Line="216" Offs="18"/>
+    <Component Name="OutY_F16" TI="563" Line="217" Offs="20"/>
+    <Component Name="OutY_F64" TI="577" Line="218" Offs="24"/>
+    <Component Name="OutY_F256" TI="591" Line="219" Offs="28"/>
+    <Component Name="OutZ" TI="605" Line="220" Offs="32"/>
+    <Component Name="OutZ_F4" TI="619" Line="221" Offs="34"/>
+    <Component Name="OutZ_F16" TI="633" Line="222" Offs="36"/>
+    <Component Name="OutZ_F64" TI="647" Line="223" Offs="40"/>
+    <Component Name="OutZ_F256" TI="661" Line="224" Offs="44"/>
+    <Component Name="Shocked" TI="675" Line="225" Offs="48"/>
+    <Component Name="RELATIVE_X" TI="689" Line="226" Offs="50"/>
+    <Component Name="RELATIVE_Y" TI="703" Line="227" Offs="52"/>
+    <Component Name="DoubleClick" TI="717" Line="228" Offs="54"/>
+   </type>
+   <type Family="typedef" Name="tMEMS_Info" Line="229" ID="732" toTI="457"/>
+   <type Family="Pointer" TI="875" toTI="881"/>
+   <function Name="Application_Ini" TI="886" FileName="D:\Student\Lab1\Application.c" Line="30">
+   </function >
+   <function Name="Application_Handler" TI="886" FileName="D:\Student\Lab1\Application.c" Line="61">
+    <variable Name="LineColor" FileName="D:\Student\Lab1\Application.c" Line="68" Addr="0x1C000012" TI="220"/>
+    <variable Name="x" FileName="D:\Student\Lab1\Application.c" Line="72" Addr="0x1C000016" TI="177"/>
+    <variable Name="y" FileName="D:\Student\Lab1\Application.c" Line="73" Addr="0x1C000014" TI="177"/>
+   <type Family="Base" Name="char" ID="1095"/>
+   <type Family="array" ID="1079" toTI="1095"/>
+    <variable Name="X" FileName="D:\Student\Lab1\Application.c" Line="90" Addr="0x1C00000C" TI="1079"/>
+    <variable Name="Y" FileName="D:\Student\Lab1\Application.c" Line="91" Addr="0x1C000004" TI="1079"/>
+   </function >
+   <function Name="MsgVersion" TI="886" FileName="D:\Student\Lab1\Application.c" Line="124">
+    <variable Name="hh" FileName="D:\Student\Lab1\Application.c" Line="126" Addr="0x1C000007" TI="210"/>
+    <variable Name="mm" FileName="D:\Student\Lab1\Application.c" Line="126" Addr="0x1C000006" TI="210"/>
+    <variable Name="ss" FileName="D:\Student\Lab1\Application.c" Line="126" Addr="0x1C000005" TI="210"/>
+    <variable Name="ss2" FileName="D:\Student\Lab1\Application.c" Line="126" Addr="0x1C000004" TI="210"/>
+   </function >
+   <type Family="array" ID="1184" toTI="252"/>
+   <type Family="Pointer" TI="1208" toTI="1184"/>
+   <type Family="array" ID="1240" toTI="1095"/>
+   <variable Name="Application_Name" FileName="D:\Student\Lab1\Application.c" Line="20" Addr="0x800664C" TI="1274"/>
+   <variable Name="Melody" FileName="D:\Student\Lab1\Application.c" Line="21" Addr="0x20000000" TI="875"/>
+  </module>
+ </modulelist>
+</aoffile>
+

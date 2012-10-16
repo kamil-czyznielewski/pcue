@@ -1,0 +1,4 @@
+
+<Project Header="Project 'Primer2_Circle'" Path=".\Primer2_Circle.rprj" Project="Yes" OutputFile="" ActiveApp="Primer2_Circle" sate="96" >
+	<ApplicationBuild Header="Primer2_Circle" Extern=".\Primer2_Circle.rapp" Path=".\Primer2_Circle.rapp" OutputFile=".\OS\Primer2_obj\Primer2_Circle.elf" sate="96" />
+</Project>

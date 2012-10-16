@@ -1,0 +1,1 @@
+Projekt by³ tworzony z u¿yciem VisualDSP++ 4.5, tak¿e mo¿e nie daæ siê otworzyæ na komputerach w laboratorium (z VisualDSP++ 5.0)

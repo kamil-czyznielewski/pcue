@@ -1,0 +1,4 @@
+
+<Project Header="Project 'Open4_Circle_STM32L'" Path=".\Open4_Circle_STM32L.rprj" Project="Yes" OutputFile="" ActiveApp="Open4_Circle_STM32L" sate="96" >
+	<ApplicationBuild Header="Open4_Circle_STM32L" Extern=".\Open4_Circle_STM32L.rapp" Path=".\Open4_Circle_STM32L.rapp" OutputFile=".\OS\Open4_Circle_STM32L_obj\Open4_Circle_STM32L.elf" sate="98" />
+</Project>

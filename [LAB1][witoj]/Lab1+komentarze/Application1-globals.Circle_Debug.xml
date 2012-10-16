@@ -1,0 +1,31 @@
+<!-- DWF2XML 2.00.01 - Raisonance Dwarf information extractor -->
+<aoffile Header="Application1" Path="D:\Student\Lab1\objdebug\Application1.elf">
+ <Def>
+  <Col Header="DeclFile" Desc="File"/>
+  <Col Header="Type" Desc="Type"/>
+  <Col Header="Header" Desc="Name"/>
+ </Def>
+ <type Header="uint8_t" Icon="1" Type="type" Desc=": unsigned char" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="42" Pointer="No"/>
+ <type Header="int16_t" Icon="1" Type="type" Desc=": int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="53" Pointer="No"/>
+ <type Header="uint16_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="54" Pointer="No"/>
+ <type Header="int32_t" Icon="1" Type="type" Desc=": long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="79" Pointer="No"/>
+ <type Header="uint32_t" Icon="1" Type="type" Desc=": unsigned long" DeclFile="c:\program files\raisonance\ride\arm-gcc\arm-none-eabi\include\stdint.h" DeclLine="80" Pointer="No"/>
+ <type Header="s32" Icon="1" Type="type" Desc=": long" DeclFile="C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\circle_types.h" DeclLine="22" Pointer="No"/>
+ <type Header="s16" Icon="1" Type="type" Desc=": int" DeclFile="C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\circle_types.h" DeclLine="23" Pointer="No"/>
+ <type Header="u32" Icon="1" Type="type" Desc=": unsigned long" DeclFile="C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\circle_types.h" DeclLine="38" Pointer="No"/>
+ <type Header="u16" Icon="1" Type="type" Desc=": unsigned int" DeclFile="C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\circle_types.h" DeclLine="39" Pointer="No"/>
+ <type Header="u8" Icon="1" Type="type" Desc=": unsigned char" DeclFile="C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\circle_types.h" DeclLine="40" Pointer="No"/>
+ <type Header="color_t" Icon="1" Type="type" Desc=": unsigned int" DeclFile="C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\circle_types.h" DeclLine="76" Pointer="No"/>
+ <type Header="tCircleFunc0" Icon="1" Type="type" Desc=": unsigned long CODE*" DeclFile="C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\circle_api.h" DeclLine="110" Pointer="Yes"/>
+ <type Header="tCircleFunc1" Icon="1" Type="type" Desc=": unsigned long CODE*" DeclFile="C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\circle_api.h" DeclLine="111" Pointer="Yes"/>
+ <type Header="tCircleFunc3" Icon="1" Type="type" Desc=": unsigned long CODE*" DeclFile="C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\circle_api.h" DeclLine="113" Pointer="Yes"/>
+ <type Header="tCircleFunc4" Icon="1" Type="type" Desc=": unsigned long CODE*" DeclFile="C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\circle_api.h" DeclLine="114" Pointer="Yes"/>
+ <type Header="tCircleFunc6" Icon="1" Type="type" Desc=": unsigned long CODE*" DeclFile="C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\circle_api.h" DeclLine="116" Pointer="Yes"/>
+ <type Header="tMEMS_Info" Icon="1" Type="type" Desc=": struct " DeclFile="C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\circle_api.h" DeclLine="229" Pointer="No"/>
+ <func Header="Application_Ini" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="D:\Student\Lab1\Application.c" DeclLine="30"/>
+ <func Header="Application_Handler" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="D:\Student\Lab1\Application.c" DeclLine="61"/>
+ <func Header="MsgVersion" Icon="3" Type="func" Desc=":   unsigned char" DeclFile="D:\Student\Lab1\Application.c" DeclLine="123"/>
+ <variable Header="Application_Name" Icon="2" Type="variable" Desc=":   signed char[9]" DeclFile="D:\Student\Lab1\Application.c" DeclLine="20" Pointer="No"/>
+ <variable Header="Melody" Icon="2" Type="variable" Desc=":   unsigned char CODE*" DeclFile="D:\Student\Lab1\Application.c" DeclLine="21" Pointer="Yes"/>
+</aoffile>
+

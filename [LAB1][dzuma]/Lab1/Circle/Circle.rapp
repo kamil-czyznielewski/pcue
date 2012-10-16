@@ -1,0 +1,158 @@
+
+<ApplicationBuild Header="Circle" Extern=".\Circle.rapp" Path=".\Circle.rapp" OutputFile=".\OS\obj\Circle.elf" sate="98" >
+	<Group Header="OS" OutputFile="" sate="96" Marker="-1" >
+		<NodeC Path=".\OS\circle_api.c" Header="circle_api.c" OutputFile=".\OS\obj\circle_api.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+		<NodeC Path=".\OS\main.c" Header="main.c" OutputFile=".\OS\obj\main.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+		<NodeC Path=".\OS\scheduler.c" Header="scheduler.c" OutputFile=".\OS\obj\scheduler.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+		<NodeC Path=".\OS\util.c" Header="util.c" OutputFile=".\OS\obj\util.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+		<Group Header="Hardware specific" OutputFile="" sate="96" Marker="-1" >
+			<NodeASM Path=".\OS\Hardware\Primer_1_2\src\CircleStartup_spe_P1.s" Header="CircleStartup_spe_P1.s" Marker="-1" OutputFile=".\OS\obj\CircleStartup_spe_P1.o" sate="0" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\Hardware\Primer_1_2\src\init_spe.c" Header="init_spe.c" OutputFile=".\OS\obj\init_spe.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\Hardware\Primer_1_2\src\power_spe.c" Header="power_spe.c" OutputFile=".\OS\obj\power_spe.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\Hardware\Primer_1_2\src\stm32f10x_circle_it_spe.c" Header="stm32f10x_circle_it_spe.c" OutputFile=".\OS\obj\stm32f10x_circle_it_spe.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\Hardware\STM32\src\util_spe.c" Header="util_spe.c" Marker="-1" OutputFile=".\OS\obj\util_spe.o" sate="0" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\Hardware\Primer_1_2\src\util_spe2.c" Header="util_spe2.c" Marker="-1" OutputFile=".\OS\obj\util_spe2.o" sate="0" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+																																																		
+		</Group>
+																														
+	</Group>
+	<Group Header="List_Menus" OutputFile="" sate="96" Marker="-1" >
+		<NodeC Path=".\OS\menu.c" Header="menu.c" OutputFile=".\OS\obj\menu.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+		<NodeC Path=".\OS\menu_settings.c" Header="menu_settings.c" OutputFile=".\OS\obj\menu_settings.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+		<Group Header="Hardware specific" OutputFile="" sate="96" Marker="-1" >
+			<NodeC Path=".\OS\Hardware\Primer_1_2\src\menu_app_spe.c" Header="menu_app_spe.c" OutputFile=".\OS\obj\menu_app_spe.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\Hardware\Primer_1_2\src\menu_spe.c" Header="menu_spe.c" OutputFile=".\OS\obj\menu_spe.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+																																																		
+		</Group>
+																														
+	</Group>
+	<Group Header="GUI" OutputFile="" sate="96" Marker="-1" >
+		<NodeC Path=".\OS\draw.c" Header="draw.c" OutputFile=".\OS\obj\draw.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+		<NodeC Path=".\OS\lcd.c" Header="lcd.c" OutputFile=".\OS\obj\lcd.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+		<NodeC Path=".\OS\pointer.c" Header="pointer.c" OutputFile=".\OS\obj\pointer.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+		<Group Header="Hardware specific" OutputFile="" sate="96" Marker="-1" >
+			<NodeC Path=".\OS\Hardware\Primer_1_2\src\lcd_spe.c" Header="lcd_spe.c" OutputFile=".\OS\obj\lcd_spe.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\Hardware\Primer_1_2\src\font_spe.c" Header="font_spe.c" Marker="-1" OutputFile=".\OS\obj\font_spe.o" sate="0" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+																																																		
+		</Group>
+																														
+	</Group>
+	<Group Header="Peripherals" OutputFile="" sate="96" Marker="-1" >
+		<NodeC Path=".\OS\button.c" Header="button.c" OutputFile=".\OS\obj\button.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+		<NodeC Path=".\OS\buzzer.c" Header="buzzer.c" OutputFile=".\OS\obj\buzzer.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+		<NodeC Path=".\OS\led.c" Header="led.c" OutputFile=".\OS\obj\led.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+		<Group Header="Specific Hardware" OutputFile="" sate="96" Marker="-1" >
+			<NodeC Path=".\OS\Hardware\Primer_1_2\src\adc_spe.c" Header="adc_spe.c" OutputFile=".\OS\obj\adc_spe.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\Hardware\STM32\src\button_spe.c" Header="button_spe.c" OutputFile=".\OS\obj\button_spe.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\Hardware\STM32\src\buzzer_spe.c" Header="buzzer_spe.c" OutputFile=".\OS\obj\buzzer_spe.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\Hardware\STM32\src\led_spe.c" Header="led_spe.c" OutputFile=".\OS\obj\led_spe.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\Hardware\STM32\src\mems_spe.c" Header="mems_spe.c" OutputFile=".\OS\obj\mems_spe.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\Hardware\STM32\src\rtc_spe.c" Header="rtc_spe.c" OutputFile=".\OS\obj\rtc_spe.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+																																																		
+		</Group>
+																														
+	</Group>
+	<Group Header="Libraries" OutputFile="" sate="96" Marker="-1" >
+		<Group Header="STM32Library" OutputFile="" sate="96" Marker="-1" >
+			<NodeC Path=".\OS\library\src\stm32f10x_adc.c" Header="stm32f10x_adc.c" OutputFile=".\OS\obj\stm32f10x_adc.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\library\src\stm32f10x_dma.c" Header="stm32f10x_dma.c" OutputFile=".\OS\obj\stm32f10x_dma.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\library\src\stm32f10x_flash.c" Header="stm32f10x_flash.c" OutputFile=".\OS\obj\stm32f10x_flash.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\library\src\stm32f10x_fsmc.c" Header="stm32f10x_fsmc.c" OutputFile=".\OS\obj\stm32f10x_fsmc.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\library\src\stm32f10x_gpio.c" Header="stm32f10x_gpio.c" OutputFile=".\OS\obj\stm32f10x_gpio.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\library\src\stm32f10x_i2c.c" Header="stm32f10x_i2c.c" OutputFile=".\OS\obj\stm32f10x_i2c.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\library\src\stm32f10x_pwr.c" Header="stm32f10x_pwr.c" OutputFile=".\OS\obj\stm32f10x_pwr.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\library\src\stm32f10x_rcc.c" Header="stm32f10x_rcc.c" OutputFile=".\OS\obj\stm32f10x_rcc.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\library\src\stm32f10x_rtc.c" Header="stm32f10x_rtc.c" OutputFile=".\OS\obj\stm32f10x_rtc.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\library\src\stm32f10x_sdio.c" Header="stm32f10x_sdio.c" OutputFile=".\OS\obj\stm32f10x_sdio.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\library\src\stm32f10x_spi.c" Header="stm32f10x_spi.c" OutputFile=".\OS\obj\stm32f10x_spi.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\library\src\stm32f10x_tim.c" Header="stm32f10x_tim.c" OutputFile=".\OS\obj\stm32f10x_tim.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\library\src\stm32f10x_usart.c" Header="stm32f10x_usart.c" OutputFile=".\OS\obj\stm32f10x_usart.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\library\src\misc.c" Header="misc.c" OutputFile=".\OS\obj\misc.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+																																																		
+		</Group>
+		<Group Header="CMSIS" OutputFile="" sate="96" Marker="-1" >
+			<NodeC Path=".\OS\CMSIS\core_cm3.c" Header="core_cm3.c" OutputFile=".\OS\obj\core_cm3.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+			<NodeC Path=".\OS\CMSIS\system_stm32f10x.c" Header="system_stm32f10x.c" OutputFile=".\OS\obj\system_stm32f10x.o" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+																																																		
+		</Group>
+																														
+	</Group>
+	<NodeText Path=".\OS\Circle.ld" Header="Circle.ld" OutputFile="" sate="0" Marker="-1" Marker5="C:\Raisonance\Ride\\Config\ExternalTools\CvsTools\uptodate.bmp" />
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="ARM" />
+																																																																																										
+				</Section>
+				<Section Header="Directories" >
+					<Property Header="OutDir" Value="$(ApplicationDir)\OS\obj" Removable="1" />
+					<Property Header="ListDir" Value="$(ApplicationDir)\OS\lst" Removable="1" />
+					<Property Header="IncDir" Value="$(ApplicationDir)\OS;$(ApplicationDir)\OS\CMSIS;$(ApplicationDir)\OS\library\inc;$(ApplicationDir)\OS\Hardware\Primer_1_2\inc;$(ApplicationDir)\OS\Hardware\STM32\inc" Removable="1" />
+																																																																															
+				</Section>
+																																																													
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F103RBT6" />
+																																																																																										
+				</Section>
+				<Section Header="ToolSetARM" >
+					<Property Header="BuildToolSetARM" Value="ARM\GNU.config" />
+																																		
+				</Section>
+				<Section Header="DebugARM" >
+					<Property Header="DebugTool_CORTEX" Value="RLINK_CORTEX" Removable="1" />
+																																																																																										
+				</Section>
+																										
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="-Os" Removable="1" />
+																																																																																										
+				</Section>
+				<Section Header="DEBUG" >
+					<Property Header="DEBUGINFO" Value="-g" Removable="1" />
+																																											
+				</Section>
+				<Section Header="Defines" >
+					<Property Header="Defines" Value="STM32F10X_MD" Removable="1" />
+							
+				</Section>
+					
+			</Set>
+			<Set Header="LD" >
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="No" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																																																																										
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="SCRIPTFILES" Value="No" Removable="1" />
+					<Property Header="File" Value="$(ApplicationDir)\OS\Circle.ld" Removable="1" />
+																																																																																										
+				</Section>
+				<Section Header="LIB" >
+					<Property Header="UART0PUTC" Value="0" Removable="1" />
+					<Property Header="SMALLP" Value="0" Removable="1" />
+					<Property Header="STLIB" Value="0" Removable="1" />
+																																																																																										
+				</Section>
+				<Section Header="Linker" >
+					<Property Header="GC_SECTIONS" Value="-Wl,-static -Wl,--gc-sections" Removable="1" />
+																																																																																										
+				</Section>
+																																																																						
+			</Set>
+			<Set Header="RLINK_CORTEX" >
+				<Section Header="Advanced" >
+					<Property Header="Crystal" Value="12" />
+																																																				
+				</Section>
+																																								
+			</Set>
+		</Config>
+	</Options>
+</ApplicationBuild>

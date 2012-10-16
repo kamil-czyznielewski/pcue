@@ -1,0 +1,107 @@
+
+<Debug>
+	<tabs>
+		<MemoryView Focus="134218684" TopRow="0" NbPerLine="8" />
+		<CodeView TopRow="134218226" Focus="4294967295" >
+			<CodeReport>
+				<0>80</0>
+				<1>88</1>
+				<2>48</2>
+				<3>267</3>
+				<4>48</4>
+				<5>102</5>
+														
+			</CodeReport>
+										
+		</CodeView>
+						
+	</tabs>
+	<Flags>
+		<Report>
+			<Def Header="FlagReport" NbCol="9" >
+				<Col Type="PT_BOOL" Header="Check" sizeCache="18" AutoSize="0" Edit="1" Sortable="1" Icon="C:\Program Files\Raisonance\Ride\Config\Resources\check.bmp" />
+				<Col Type="PT_STRING" Header="Kind" sizeCache="DDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" />
+				<Col Type="PT_STRING" Header="KindID" sizeCache="DD" AutoSize="1" Edit="0" Sortable="1" Visible="0" />
+				<Col Type="PT_STRING" Header="Space" sizeCache="DDDDDD" AutoSize="1" Edit="0" Sortable="1" />
+				<Col Type="PT_STRING" Header="SpaceID" sizeCache="DD" AutoSize="0" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Line" sizeCache="DDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" Visible="1" />
+				<Col Type="PT_STRING" Header="File" sizeCache="DDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" Visible="1" />
+				<Col Type="PT_STRING" Header="Path" sizeCache="DDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Condition" sizeCache="DDDDDDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="0" />
+				<Col Type="PT_STRING" Header="Condexpr" sizeCache="DD" AutoSize="1" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Condcount" sizeCache="DD" AutoSize="1" Edit="0" Sortable="0" Visible="0" />
+							
+			</Def>
+			<Rows/>
+					
+		</Report>
+			
+	</Flags>
+	<Views>
+		<View File="D:\Student\Lab1\Micha³ Nienartowicz\application.c" Line="101" Index="0" focus="1" />
+	</Views>
+	<Grep>
+		<GrepIncludeSub>yes</GrepIncludeSub>
+		<GrepMatchCase>no</GrepMatchCase>
+		<GrepMatchWhole>no</GrepMatchWhole>
+		<GrepRegExp>no</GrepRegExp>
+		<GrepReplaceMode>no</GrepReplaceMode>
+		<GrepFileTypes>
+			<GrepFileTypesValue>*.c;*.h</GrepFileTypesValue>
+			<GrepFileType>*.c;*.h</GrepFileType>
+		</GrepFileTypes>
+		<GrepFindWhat>
+			<GrepFindWhatValue/>
+		</GrepFindWhat>
+		<GrepFindWhere>
+			<GrepFindWhereValue/>
+			<GrepPathStr>Application Files</GrepPathStr>
+			<GrepPathStr>Application Path</GrepPathStr>
+		</GrepFindWhere>
+		<GrepReplaceWhat>
+			<GrepReplaceWhatValue/>
+		</GrepReplaceWhat>
+	</Grep>
+	<FindStrings>
+		<Find>time</Find>
+		<Find>jcx</Find>
+		<Find>julia</Find>
+		<Find>MAX_Y</Find>
+		<Find>render</Find>
+		<Find>gpio</Find>
+		<Find>80</Find>
+		<Find>DOUBLE_RES</Find>
+		<Find>16</Find>
+		<Find>cur.</Find>
+		<Find>update_menu</Find>
+		<Find>todo</Find>
+		<Find>MAX_ITER_DOUBLE</Find>
+		<Find>resolution</Find>
+		<Find>abort</Find>
+		<Find>lcd_setp</Find>
+		<Find>draw_c</Find>
+		<Find>mode</Find>
+		<Find>iterations_wert</Find>
+		<Find>farb_wert</Find>
+		<Find>punkt_iteration</Find>
+		<Find>aufloesung</Find>
+		<Find>BETRAGQUADRAT</Find>
+		<Find>betrag_quadrat</Find>
+		<Find>NKS</Find>
+		<Find>modus</Find>
+		<Find>frame</Find>
+		<Find>x</Find>
+		<Find>y</Find>
+		<Find>LED_Set</Find>
+		<Find>teiler</Find>
+	</FindStrings>
+	<ReplaceStrings>
+		<Find>iterations_val</Find>
+		<Find>color_val</Find>
+		<Find>point_iteration</Find>
+		<Find>resolution</Find>
+		<Find>SQUAREVAL</Find>
+		<Find>square_val</Find>
+		<Find>RES_INT</Find>
+	</ReplaceStrings>
+</Debug>

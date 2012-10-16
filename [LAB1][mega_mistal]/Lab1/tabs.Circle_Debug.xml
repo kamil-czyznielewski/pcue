@@ -1,0 +1,82 @@
+<!-- DWF2XML 2.00.01 - Raisonance Dwarf information extractor -->
+<aoffile Filename="tabs" dwarf="1">
+ <modulelist>
+  <module Name="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" >
+   <type Family="Base" Name="signed char" ID="41"/>
+   <type Family="Base" Name="unsigned char" ID="59"/>
+   <type Family="typedef" Name="uint8_t" Line="42" ID="48" toTI="59"/>
+   <type Family="Base" Name="short int" ID="77"/>
+   <type Family="typedef" Name="int16_t" Line="53" ID="66" toTI="77"/>
+   <type Family="Base" Name="short unsigned int" ID="84"/>
+   <type Family="Base" Name="long int" ID="102"/>
+   <type Family="typedef" Name="int32_t" Line="79" ID="91" toTI="102"/>
+   <type Family="Base" Name="long unsigned int" ID="120"/>
+   <type Family="typedef" Name="uint32_t" Line="80" ID="109" toTI="120"/>
+   <type Family="Base" Name="long long int" ID="127"/>
+   <type Family="Base" Name="long long unsigned int" ID="134"/>
+   <type Family="Base" Name="int" ID="141"/>
+   <type Family="Base" Name="unsigned int" ID="148"/>
+   <type Family="typedef" Name="s32" Line="22" ID="155" toTI="91"/>
+   <type Family="typedef" Name="s16" Line="23" ID="166" toTI="66"/>
+   <type Family="typedef" Name="u32" Line="38" ID="177" toTI="109"/>
+   <type Family="typedef" Name="u8" Line="40" ID="188" toTI="48"/>
+   <type Family="Pointer" TI="230" toTI="236"/>
+   <type Family="typedef" Name="tCircleFunc0" Line="110" ID="219" toTI="230"/>
+   <type Family="Pointer" TI="253" toTI="259"/>
+   <type Family="typedef" Name="tCircleFunc1" Line="111" ID="242" toTI="253"/>
+   <type Family="Pointer" TI="286" toTI="292"/>
+   <type Family="typedef" Name="tCircleFunc3" Line="113" ID="275" toTI="286"/>
+   <type Family="Pointer" TI="329" toTI="335"/>
+   <type Family="typedef" Name="tCircleFunc4" Line="114" ID="318" toTI="329"/>
+   <type Family="Pointer" TI="377" toTI="383"/>
+   <type Family="typedef" Name="tCircleFunc6" Line="116" ID="366" toTI="377"/>
+   <type Family="ComponentList" Line="208" ID="424">
+    <Component Name="OutX" TI="432" Line="210" Offs="0"/>
+    <Component Name="OutX_F4" TI="446" Line="211" Offs="2"/>
+    <Component Name="OutX_F16" TI="460" Line="212" Offs="4"/>
+    <Component Name="OutX_F64" TI="474" Line="213" Offs="8"/>
+    <Component Name="OutX_F256" TI="488" Line="214" Offs="12"/>
+    <Component Name="OutY" TI="502" Line="215" Offs="16"/>
+    <Component Name="OutY_F4" TI="516" Line="216" Offs="18"/>
+    <Component Name="OutY_F16" TI="530" Line="217" Offs="20"/>
+    <Component Name="OutY_F64" TI="544" Line="218" Offs="24"/>
+    <Component Name="OutY_F256" TI="558" Line="219" Offs="28"/>
+    <Component Name="OutZ" TI="572" Line="220" Offs="32"/>
+    <Component Name="OutZ_F4" TI="586" Line="221" Offs="34"/>
+    <Component Name="OutZ_F16" TI="600" Line="222" Offs="36"/>
+    <Component Name="OutZ_F64" TI="614" Line="223" Offs="40"/>
+    <Component Name="OutZ_F256" TI="628" Line="224" Offs="44"/>
+    <Component Name="Shocked" TI="642" Line="225" Offs="48"/>
+    <Component Name="RELATIVE_X" TI="656" Line="226" Offs="50"/>
+    <Component Name="RELATIVE_Y" TI="670" Line="227" Offs="52"/>
+    <Component Name="DoubleClick" TI="684" Line="228" Offs="54"/>
+   </type>
+   <type Family="typedef" Name="tMEMS_Info" Line="229" ID="699" toTI="424"/>
+   <type Family="Pointer" TI="842" toTI="848"/>
+   <function Name="Application_Ini" TI="853" FileName="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" Line="35">
+   </function >
+   <function Name="Application_Handler" TI="853" FileName="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" Line="68">
+    <variable Name="x" FileName="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" Line="75" Addr="0x1C00000A" TI="166"/>
+    <variable Name="y" FileName="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" Line="76" Addr="0x1C000008" TI="166"/>
+   <type Family="Base" Name="char" ID="1078"/>
+   <type Family="array" ID="1062" toTI="1078"/>
+    <variable Name="tabs" FileName="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" Line="78" Addr="0x1C000004" TI="1062"/>
+    <variable Name="dwaps" FileName="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" Line="79" Addr="0x1C000000" TI="1062"/>
+    <variable Name="xx" FileName="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" Line="82" Addr="0x1C00000E" TI="166"/>
+    <variable Name="yy" FileName="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" Line="85" Addr="0x1C00000C" TI="166"/>
+   </function >
+   <function Name="MsgVersion" TI="853" FileName="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" Line="123">
+    <variable Name="hh" FileName="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" Line="125" Addr="0x1C000007" TI="188"/>
+    <variable Name="mm" FileName="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" Line="125" Addr="0x1C000006" TI="188"/>
+    <variable Name="ss" FileName="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" Line="125" Addr="0x1C000005" TI="188"/>
+    <variable Name="ss2" FileName="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" Line="125" Addr="0x1C000004" TI="188"/>
+   </function >
+   <type Family="array" ID="1167" toTI="219"/>
+   <type Family="Pointer" TI="1191" toTI="1167"/>
+   <type Family="array" ID="1223" toTI="1078"/>
+   <variable Name="Application_Name" FileName="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" Line="22" Addr="0x8006730" TI="1257"/>
+   <variable Name="Melody" FileName="D:\Student\Lab1\Micha³ Nienartowicz\Application.c" Line="24" Addr="0x20000000" TI="842"/>
+  </module>
+ </modulelist>
+</aoffile>
+

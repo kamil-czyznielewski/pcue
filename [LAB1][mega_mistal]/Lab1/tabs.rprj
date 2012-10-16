@@ -1,0 +1,4 @@
+
+<Project Header="Project 'tabs'" Path=".\tabs.rprj" Project="Yes" AsyncBuild="" OutputFile="" sate="96" ActiveApp="tabs" >
+	<ApplicationBuild Header="tabs" Extern=".\tabs.rapp" Path=".\tabs.rapp" AsyncBuild="" OutputFile=".\objdebug\tabs.elf" sate="96" Config="Circle_Debug" />
+</Project>

@@ -1,0 +1,1 @@
+Komentarzy szukaj w pliku Echo_Worker_ThreadType.c

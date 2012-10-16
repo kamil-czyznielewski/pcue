@@ -1,0 +1,4 @@
+
+<Project Header="Project 'Circle'" Path=".\Circle.rprj" Project="Yes" OutputFile="" ActiveApp="Circle" sate="96" >
+	<ApplicationBuild Header="Circle" Extern=".\Circle.rapp" Path=".\Circle.rapp" OutputFile=".\OS\obj\Circle.elf" sate="98" />
+</Project>

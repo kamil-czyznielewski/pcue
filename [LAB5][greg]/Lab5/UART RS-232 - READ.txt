@@ -1,0 +1,56 @@
+
+= Cz. pierwsza - ustawiamy włączanie i wyłączanie diód na przycisk.
+    Modyfikujemy metodę main w main.c
+    W istniejącym forze dopisujemy if'y sprawdzające jaki klawisz włączono
+     i w zależnośco od tego wykonujemy odpowiednią operację:
+      // zapalenie diod
+      *pPORTFIO_SET = 0x0040 | 0x0080 | 0x0100 | 0x0200 | 0x0400 | 0x0800;
+     lub
+      // zgaszenie diod
+      *pPORTFIO_CLEAR =0x0FC4;
+     
+     Uwaga
+     UART_putc(c) ląduje na końcu bloku for ;)
+     
+= Cz. druga - wyświetlamy na terminalu informację o wduszeniu przycisku na płytce
+    Musimy dodać obsługę przerwać oraz podpiąć swój handler pod wduszenie przycisku.
+    Wzorujemy się na kodzie z LDE Blink 1
+    Modyfikujemy main.c
+    Dopisujemy fukncje:
+            void Init_Interrupts(void)
+            {
+	            // assign core IDs to interrupts
+	            *pSIC_IAR0 = 0xffffffff;
+	            *pSIC_IAR1 = 0xffffffff;
+	            //*pSIC_IAR2 = 0xffff4fff;					// Timer0 -> ID4; 
+	            *pSIC_IAR3 = 0xffff5fff;					// PORTF IntA -> ID5
+
+	            // assign ISRs to interrupt vectors
+	            register_handler(ik_ivg12, PORTF_IntA_ISR);	// PORTF_IntA_ISR -> IVG 12
+
+	            // enable Timer0 and PORTF IntA interrupt
+	            *pSIC_IMASK = 0x08080000;
+            }
+    oraz
+            EX_INTERRUPT_HANDLER(PORTF_IntA_ISR)
+            {
+	            *pPORTFIO_CLEAR = 0x0FC4;
+
+	            UART_putc(' ');
+	            UART_putc('b');
+	            UART_putc('u');
+	            UART_putc('t');
+	            UART_putc('t');
+	            UART_putc('o');
+	            UART_putc('n');
+	            UART_putc(' ');
+            }
+    w main zaraz po LED_Init(); dodajemy
+        Init_Interrupts();
+        
+    Powinno śmigać. Wduszenie przycisku powoduje wywołąnie fukncji
+        EX_INTERRUPT_HANDLER
+    zarejestrowanej w Init_Interrupts
+
+
+    Pełny kod w main.c

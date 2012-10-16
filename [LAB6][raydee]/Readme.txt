@@ -1,0 +1,1 @@
+Wersja odczytuj¹ca dane wprost z modu³u GPS.

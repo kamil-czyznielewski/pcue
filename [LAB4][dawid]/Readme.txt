@@ -1,0 +1,1 @@
+Szczerze mówi¹c, nie wiem czy to rozwi¹zanie jest kompletne.

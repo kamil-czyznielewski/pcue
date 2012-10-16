@@ -1,0 +1,7 @@
+by Witoj
+
+Treœæ zadania 1 to:
+1. Napisaæ aplikacjê, która korzystaj¹c z wbudowanego akcelerometru bêdzie wyœwietlaæ aktualne wychylenie urz¹dzenia.
+2. Dodaæ do aplikacji, aby po wychyleniu urz¹dzenia o 30 stopni w³¹cza³ siê brzêczyk.
+
+W zadaniu 1 i 2 œrodowiskiem programistycznym jest Raisonance Ride7.
